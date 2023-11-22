@@ -25,7 +25,7 @@
 
 - References: 
     - pprof library: https://github.com/google/pprof
-    - CPU Profiler in GOland: https://www.jetbrains.com/help/go/cpu-profiler.html
+    - CPU Profiler in Goland: https://www.jetbrains.com/help/go/cpu-profiler.html
 
 ## Profiling with short lived program
 - To profile, must do 2 steps mentioned in `Profiling with go test`. Therefore, the steps required are: 
@@ -39,7 +39,7 @@
         defer pprof.StopCPUProfile()
         ```
     
-    - Use pprof to analysis the cpu.prof: `pprof cpu.prof`
+    - Use `pprof` to analysis the `cpu.prof`: `pprof cpu.prof`
 
 ## Profiling with background / running service
 - We will need to open an api so the `pprof` tool can connect to it

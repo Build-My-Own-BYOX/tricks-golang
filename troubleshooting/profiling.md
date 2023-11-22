@@ -1,6 +1,6 @@
-# troubleshooting > profilling
+# troubleshooting > profiling
 
-## Empty memory profilling result
+## Empty memory profiling result
 - Reason: This may comes from the rate that the profiler samples the memory usage.
 - Solution: 
     - Decrease `runtime.MemProfileRate` as low as you need

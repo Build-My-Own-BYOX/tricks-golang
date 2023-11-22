@@ -1,4 +1,4 @@
-# tricks > cheatsheet > profilling
+# tricks > cheatsheet > profiling
 
 - Run cpu & memory profile with test: 
     ```
